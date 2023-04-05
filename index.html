@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Memory Game!</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Unica+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="mainpage">
+      <h1>Memory Game!</h1>
+      <button id="startbtn">Start</button>
+    </div>
+    <div id="game">
+      <h1>Memory Game!</h1>
+      <div id="score-row">
+        <h3 id="current">Current Score:</h3>
+        <h3 id="high">High Score:</h3>
+      </div>
+      <section id="boxes"></section>
+      <button id="restartbtn">Restart</button>
+    </div>
+    <div id="game-over">
+      <h2 id="win-text">Game Over!</h2>
+      <p id="score-desc">Your score was</p>
+      <p id="number-text"></p>
+      <button id="restart-modal-btn">Restart</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
